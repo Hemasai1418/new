@@ -5,8 +5,8 @@ metadata:
 spec:
   type: LoadBalancer
   selector:
-app: kubepro
-  portts :
+  app: kubepro
+  ports:
     - protocol: TCP
       port: 80
       targetPort: 80
